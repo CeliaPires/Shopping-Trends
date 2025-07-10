@@ -1,5 +1,9 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+
+![Project image cover](images/dataset-cover.jpg)
+
+
 ## Template Instructions
 
 Welcome,
