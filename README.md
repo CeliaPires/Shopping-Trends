@@ -58,13 +58,14 @@
 ## **Promotional response hypotheses and how they will be validated**
 
 
-| **Hypothesis** | **Test Type** | **Explanation**
+| **Hypothesis** | **Test Type** | **Validation**
 |-----------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
 | H1: **Younger customer groups** (e.g., Gen Z, Millennials) **use promo codes more often than older groups** | Chi-squared test | Promo code usage across age segments |
 | H2: **Female customers are more likely to use discounts than male customers** | Chi-squared test | Gender vs discount usage |
 | H3: **Customers who use discounts tend to spend more per purchase** | Independent two-sample t-test | Compare purchase amounts (discounted vs not) |
 | H4: **Season affects promotion response** (e.g., more promo code use during Winter Sales) | Chi-squared test | Season vs promo code usage |
 
+### **Rationale for test type used**
 
 * The Chi-squared test is used to test associations between two categorical variables. 
 
@@ -76,21 +77,35 @@
 
 | **Hypothesis** | **What we tested** | **What we found** | **Conclusion** |
 |-----------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
-| H1 | **Younger customer groups** (e.g., Gen Z, Millennials) **use promo codes more often than older groups** | No significant difference | Not supported  |
-| H2 | **Female customers are more likely to use discounts than male customers** | Yes and it is statistically significant | **Not supported** (pattern in dataset contradicts the hypothesis) |
-| H3 | **Customers who use discounts tend to spend more per purchase** | No significant difference | Not supported |
-| H4 | **Season affects promotion response** (e.g., more promo code use during Winter Sales) | No significant difference | Not supported |
+| H1 | **Younger customer groups** (e.g., Gen Z, Millennials) **use promo codes more often than older groups** | Not statistically significant | Not supported  |
+| H2 | **Female customers are more likely to use discounts than male customers** | Statistically significant | **Not supported** (pattern in dataset contradicts the hypothesis result) |
+| H3 | **Customers who use discounts tend to spend more per purchase** | Not statistically significant | Not supported |
+| H4 | **Season affects promotion response** (e.g., more promo code use during Winter Sales) | Not statistically significant | Not supported |
 
 
-## **Project Plan**
+## **Project plan**
 
-* placeholder text
+* During the ideation and organisation phased, I brainstormed a series of user stories with milestones and deadlines to ensure that the deadline for completion was met. I also agreed the data cleanse and transformation strategy.
 
-* Link to the project board [Kanban board](https://github.com/users/CeliaPires/projects/9/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Labels%22%2C%22Milestone%22%5D)
+* This is the high level plan I came-up with:
+
+| **Milestone** | **Task** | **Deadline**
+|-----------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| **Project set-up** | Select project idea | **18/07/25** |
+| **Project set-up** | Create github repository | **18/07/25** |
+| **Project set-up** | Kanban board set-up | **18/07/25** |
+| **Project set-up** | VS Code project set-up | **18/07/25** |
+| **ETL** | Data load/preparation | **21/07/25** |
+| **Data analysis** | Hypothesis testing | **22/07/25** |
+| **Data analysis** | Customer segmentation| **22/07/25** |
+| **Data visualisation** | Generate insights | **23/07/25** |
+| **Project closure** | Project documentation | **24/07/25** |
 
 
+* The detail of the project Kanban board can be found here: [Kanban board](https://github.com/users/CeliaPires/projects/9/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Labels%22%2C%22Milestone%22%5D)
 
-## **The rationale to map the business requirements to the Data Visualisations**
+
+## **The rationale to map the business requirements to the data visualisations**
 
 * placeholder text
 
@@ -111,21 +126,21 @@
 
 * In PBI, chose 4 visualisations that correlate to the business goals.
 
-1. Stacked bar chart: average of purchase_amount (usd) by location
+**1. Stacked bar chart: average of purchase_amount (usd) by location**
 
 
-2. Line and stacked column chart: average of purchase_amount (usd) by season
+**2. Line and stacked column chart: average of purchase_amount (usd) by season**
 
 
-3. Donut chart: average of purchase_amount (usd) by age group
-
-
-
-4. Clustered bar chart: average of purchase_amount (usd) by age group
+**3. Donut chart: average of purchase_amount (usd) by age group**
 
 
 
-5. Text filter based on location
+**4. Clustered bar chart: average of purchase_amount (usd) by age group**
+
+
+
+**5. Text filter based on location**
 
 
 
