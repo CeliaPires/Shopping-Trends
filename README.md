@@ -45,3 +45,129 @@
 | **Payment method** | Payment method used (e.g., Credit Card, PayPal, Venmo, Cash) |
 | **Frequency of purchases** | Stated frequency of shopping (e.g., Weekly, Monthly, Annually) |
 
+
+## **Business requirements**
+
+### **Business goals: promotion response**
+
+* Which segments are more likely to respond to promotional events (i.e., use promo codes or discounts)?
+
+* What customer attributes correlate with higher spending during promotions?
+
+
+## **Promotional response hypotheses and how they will be validated**
+
+
+| **Hypothesis** | **Test Type** | **Explanation**
+|-----------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| H1: **Younger customer groups** (e.g., Gen Z, Millennials) **use promo codes more often than older groups** | Chi-squared test | Promo code usage across age segments |
+| H2: **Female customers are more likely to use discounts than male customers** | Chi-squared test | Gender vs discount usage |
+| H3: **Customers who use discounts tend to spend more per purchase** | Independent two-sample t-test | Compare purchase amounts (discounted vs not) |
+| H4: **Season affects promotion response** (e.g., more promo code use during Winter Sales) | Chi-squared test | Season vs promo code usage |
+
+
+* The Chi-squared test is used to test associations between two categorical variables. 
+
+* When comparing means (averages) of a numeric variable (purchase_amount_(usd)) between two independent groups (discount_applied = yes or no), the t-test is the statistically correct approach.
+
+
+### **Summary outcome**
+
+
+| **Hypothesis** | **What we tested** | **What we found** | **Conclusion** |
+|-----------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| H1 | **Younger customer groups** (e.g., Gen Z, Millennials) **use promo codes more often than older groups** | No significant difference | Not supported  |
+| H2 | **Female customers are more likely to use discounts than male customers** | Yes and it is statistically significant | **Not supported** (pattern in dataset contradicts the hypothesis) |
+| H3 | **Customers who use discounts tend to spend more per purchase** | No significant difference | Not supported |
+| H4 | **Season affects promotion response** (e.g., more promo code use during Winter Sales) | No significant difference | Not supported |
+
+
+## **Project Plan**
+
+* placeholder text
+
+* Link to the project board [Kanban board](https://github.com/users/CeliaPires/projects/9/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Labels%22%2C%22Milestone%22%5D)
+
+
+
+## **The rationale to map the business requirements to the Data Visualisations**
+
+* placeholder text
+
+
+## **Analysis techniques used**
+
+* placeholder text
+
+
+## **Ethical considerations**
+
+* placeholder text
+
+
+## **Dashboard Design**
+
+* For data visualisation, chose to use Power BI (PBI). Due to limitations with the version of PBI being used, a link cannot be provided. However, a file is available in the 'Dashboard" folder labelled XXXXX.
+
+* In PBI, chose 4 visualisations that correlate to the business goals.
+
+1. Stacked bar chart: average of purchase_amount (usd) by location
+
+
+2. Line and stacked column chart: average of purchase_amount (usd) by season
+
+
+3. Donut chart: average of purchase_amount (usd) by age group
+
+
+
+4. Clustered bar chart: average of purchase_amount (usd) by age group
+
+
+
+5. Text filter based on location
+
+
+
+## **Unfixed Bugs**
+
+* placeholder text
+
+
+
+## **Development roadmap**
+
+
+## **Main Data Analysis Libraries**
+
+* Pandas & Numpy to convert csv file into a DataFrame to facilitate the data cleansing/transformation process. 
+
+* Scipy for statistical analysis and hypothesis testing.
+
+* Matplotlib, seaborn & plotly for visualisation of the hypotheses.
+
+
+## **Credits**
+
+### **Content**
+
+* placeholder text
+
+### **Media**
+
+* The image used for the project introduction was taken from Kaggle [Project image intro](https://www.kaggle.com/datasets/sahilislam007/shopping-trends-and-customer-behaviour-dataset).
+
+## **Acknowledgements**
+
+* placeholder text
+
+
+
+
+
+
+
+
+
+
+
