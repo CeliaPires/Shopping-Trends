@@ -85,7 +85,7 @@
 
 ## **Project plan**
 
-* During the ideation and organisation phased, I brainstormed a series of user stories with milestones and deadlines to ensure that the deadline for completion was met. I also agreed the data cleanse and transformation strategy.
+* During the ideation and organisation phase, I brainstormed a series of user stories with milestones and deadlines to ensure that the overall deadline for completion was met. I also agreed the data cleanse and transformation strategy.
 
 * This is the high level plan I came-up with:
 
@@ -160,6 +160,8 @@
 * Scipy for statistical analysis and hypothesis testing.
 
 * Matplotlib, seaborn & plotly for visualisation of the hypotheses.
+
+* Sklearn for customer segmentation.
 
 
 ## **Credits**
