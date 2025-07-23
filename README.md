@@ -122,7 +122,11 @@
 
 ## **Dashboard Design**
 
-* For data visualisation, chose to use Power BI (PBI). Due to limitations with the version of PBI being used, a link cannot be provided. However, a file is available in the 'Dashboard" folder labelled XXXXX.
+* For data visualisation, chose to use Power BI (PBI). Due to limitations with the version of PBI being used, a link cannot be provided. However, a file is available in the **Dashboards** folder labelled **shopping_trends**.
+
+![PBI desktop confirmation](images/pbi-desktop-confirmation.png)
+
+
 
 * In PBI, chose 4 visualisations that correlate to the business goals.
 
