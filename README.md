@@ -127,8 +127,7 @@
 ![PBI desktop confirmation](images/pbi-desktop-confirmation.png)
 
 
-
-* In PBI, chose 4 visualisations that correlate to the business goals.
+In PBI, chose 4 visualisations that correlate to the business goals.
 
 **1. Stacked bar chart: average of purchase_amount (usd) by location**
 
@@ -150,12 +149,12 @@
 
 ## **Unfixed Bugs**
 
-* placeholder text
-
+Fortunately, there are no unfixed bugs to report on. This time round, I adopted a different strategy that incorporated lessons learnt from solo and group hackathons along with planning ahead for the capstone. My knowledge and understanding of the process has greatly improved which is rewarding to see. This time round I felt more in control. My checklist definitely helped and also reaching out to my fellow students as and when I was not sure of something was really reassuring. At the start of the project when I was trying to clone my repo in VS Code, I got confused with some of the steps. I reached-out to Natalie Waugh who very kindly provided guidance on what I needed to do. Same thing with Power BI where I felt that my knowledge was not where it needed to be. I reached-out to a couple of people in my cohort who were able to recommend YouTube content to address some of my gaps. Finally, during the capstone when I add to complete clustering for my dataset, reached-out to Spencer to validate my understanding and the interpretation of the result. In the process, realised how important the data cleanse/tranformation step is, more specifically when it comes to data re-engineering. I have definitely learned from it and will be more vigilent as and when I perform a similar type of work in the future.
 
 
 ## **Development roadmap**
 
+Completing the Hackathons and the Capstone project has been a big learning curve for me. As I progressed through the bootcamp, I overcame the imposter syndrome and with it my knowledge and understanding of the process. That being said, there are 2 areas where I plan to develop further. The first one being Power BI. Although I am able to perform basic/simple visualisations, I feel there is more to learn and I have already identified a couple of videos on YouTube to help me with this. The second area is around consolidating my knowledge and understanding of machine learning. For this, I plan to revisit the content in the LMS and practice with datasets from Kaggle so that I can test various techniques and learn what works and what does not work.
 
 ## **Main Data Analysis Libraries**
 
@@ -170,9 +169,14 @@
 
 ## **Credits**
 
+**ULTIMATE Power BI tutorial beginner to pro course (2024)**: [pbi tutorial](https://www.youtube.com/watch?v=Dk25lwdTKow&t=10371s).
+This YouTube tutorial helped me grasp the basics of PBI to complete the capstone project.
+
+
 ### **Content**
 
-* placeholder text
+**Code Institute LMS programme** [LMS](https://learn.codeinstitute.net/ci_program/daai_9).
+I used the LMS throughout the project to access Python code and overall learning content.
 
 ### **Media**
 
@@ -180,7 +184,13 @@
 
 ## **Acknowledgements**
 
-* placeholder text
+**Jane Weightman** for sharing the breakfix for the Plotly issue.
+
+**Natalie Waugh** for her support and guidance throughout the project.
+
+**Emma Lamont** for her patience and support throughout the course and during the capstone project.
+
+**Vasi** for deputising for Emmma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
 
 
 
