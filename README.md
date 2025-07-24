@@ -127,11 +127,6 @@
 ![PBI desktop confirmation](images/pbi-desktop-confirmation.png)
 
 
-I also provide a web link, in case my "pro" access is still active (part of the 60 days free trial).
-
-[Dashboard web link]().
-
-
 In PBI, chose 4 visualisations that correlate to the business goals: increase sales through marketing campaigns.
 
 Since hypothesis testing highlighted issues with the quality of the data, changed some of the parameters to produce the visualisations.
