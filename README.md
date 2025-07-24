@@ -139,7 +139,7 @@ For all the visualisations, **changed the parameter for purchase_amount_(usd) fr
 
 **1. Stacked bar chart: average of purchase_amount_(usd) by location**
 
-This first graph shows the average spend by location. By hoovering over the graph, you will be able to see the values individually. I was interested to see if there were areas were marketing campaigns had proven to be more impactful than others. As you can see, the average spend ranges from $59.42 in New Hampshire (lowest) to $67.60 in Alaska (highest), a difference of only $8.18 which is not significant considering how expensive marketing campaigns are. So here, I would say that the average spend is the same across all regions.
+This first graph shows the average spend by location. By hoovering over the graph, you will be able to see the values individually. I was interested to see if there where areas were marketing campaigns had proven to be more impactful than others. As you can see, the average spend ranges from $59.42 in New Hampshire (lowest) to $67.60 in Alaska (highest), a difference of only $8.18 which is not significant considering how expensive marketing campaigns are. So here, I would say that the average spend is the same across all regions.
 
 
 **2. Line and stacked column chart: average of purchase_amount (usd) by season**
@@ -170,6 +170,51 @@ Fortunately, there are no unfixed bugs to report on. This time round, I adopted 
 ## **Development roadmap**
 
 Completing the Hackathons and the Capstone project has been a big learning curve for me. As I progressed through the bootcamp, I overcame the imposter syndrome and with it my knowledge and understanding of the process. That being said, there are 2 areas where I plan to develop further. The first one being Power BI. Although I am able to perform basic/simple visualisations, I feel there is more to learn and I have already identified a couple of videos on YouTube to help me with this. The second area is around consolidating my knowledge and understanding of machine learning. For this, I plan to revisit the content in the LMS and practice with datasets from Kaggle so that I can test various techniques and learn what works and what does not work.
+
+
+## **Miscellaneous**
+
+Pass criteria requirement **9.2 (Explain how data analytics and AI can address specific challenges or opportunities).**
+
+Data Analytics & AI can help identify opportunities for business growth by uncovering patterns in the data, predicting outcomes to enable data-driven decisions. For example, in my dataset, data analytics uncovered an issue with the quality of the data. Had this happened in a real working environment, it would have triggered an investigation to either assess if the quality of the data is the issue or if past marketing campaigns have not produced the desired ROI. With a good, quality dataset with strong insights, AI models can help tailor marketing campaigns to drive operational efficiency and support strategic goals. 
+
+
+Pass criteria requirement **8.3 (Explore relevant applications of data analytics in the chosen data domain, indicating a breadth of understanding and curiosity).**
+
+In the context of retail/e-commerce, data analytics can play a pivotal role in uncovering insights to facilitate the decision-making process. Using my dataset as an example, had the data been accurate, by analysing transactional data, demographic patterns and engagement metrics companies can quickly identify high-value customer segments and forecast purchasing trends. Techniques such as clustering enables businesses to personalise promotions, optimise inventory and enhance the overall shopping experience. Data analytics not only helps solve real world problems it also helps uncover opportunities for growth through targetted marketing campaigns and ovrall operational efficiency.
+
+
+Pass criteria requirement **8.1 (Articulate complex data insights to technical and non-technical audiences).**
+
+Since my dataset was very straight forward, I kept the messaging purposely simple to tailor different audiences. For example for the hypotheses, I included technical and non technical content to aid with the understanding of the findings. I purposely included a table at the start of the hypotheses that provides the null and alternative hypothesis in plain emglish. I also inluded a section at the start explaining the key statistical terms. In the readme, provided a summary, again, very simple summarising the findings. From personal experience senior management does not like too much detail in presentations. The detail is best shared during project meetings as and when questions arise. In PBI, carried on with the theme by using simple graphs that are commonly used and kept the narrative jargon free to convey my findings. 
+
+
+Pass criteria requirement **7.2 (Select research methodologies applicable to the project goals).**
+
+For this project, I used an observational research methodology since the goal of the project was to identify high profile customer segments to drive sales through targetted marketing campaigns. During data analysis, I anonymised transaction records by removing the customer ID information. When it came to analyse the data, combined descriptive statistics to explore general trends (eg, mean spend per customer to understand average shopping behaviour, number of customers using promo codes to assess promotional response, box plots of spending by gender and age group to compare patterns across segments), clustering techniques to segment customers based on behaviour and hypothesis testing to uncover relationships between variables. These methodologies were specifically selected to support the project’s goal of understanding customer behaviour and identifying actionable insights to inform targeted marketing campaigns. 
+
+
+Pass criteria requirement **6.2 (Discuss the legal and social implications of the data handling and findings).**
+**6.1 (Examine ethical issues, data privacy, and governance in the project’s methodology).**
+
+To comply with data privacy regulations such as the General Data Protection Regulation (GDPR), all personally identifiable information (PII) was removed from the dataset (eg, 'customer_id' column). This was key to protect individuals' privacy. The final dataset used for analysis was fully anonymised. 
+
+From a legal perspective, GDPR emphasises transparency, data minimisation and purpose limitation. This means using only the data that is strictly necessary for the intended business purpose. In a real working environment, I would seek to obtain explicit user consent for the purpose of delivering my project. 
+
+From a social perspective, I took into consideration ethical considerations by minimising biases in the analysis and jumping to conclusions too quickly, stereotyping genders behaviour in the process. Hence, why I made the point multiple times of going back to the data source to re-check the accuracy of the data before finalising my findings. It is important that when faced with poor quality data we document our analysis and we go back to the drawing ball (eg, request a new or corrected dataset) to ensure that we strip as much as possible biases in the data to minimise the risk of basing decisions that could contribute to discriminatory practices (eg, only offering promo codes to a specific gender).
+
+
+Furthermore, I also considered key ethical issues around data privacy, bias and fairness. The dataset clearly had data quality issues which I thourougly reviewed and documented during exploratory phase to avoid skewed interpretations. The goal of the analysis was to understand customer behaviour in order to better tailor marketing campaigns/promotional events rather than targeting customers unfairly. I was very cautious on how I documented my findings. I followed strict governance practices such as highlighting data quality issues and mainly maintaining the integrity of the dataset (no data/columns were amended) to support responsible use of data.
+
+
+Pass criteria requirement **4.2 (Apply generative AI solutions in storytelling with data.)**
+
+I used AI throughout the project to generate ideas on how best to approach certain deliverables. The main area was around customer segmentation. Since this was all new to me, as I previously explained, I used chatgpt for guidance on how best to approach this. The codes/the visuals were all generated using AI Python code. I also used chatgpt to interpret the results and visualise the data (plot charts). My commentary is a combination of chatgpt's input and my own reflections. I also used chatgpt to draft the hypothesis and the business requirements/goals. 
+
+
+Pass criteria requirement **3.2 (Evaluate the problem-solving approach and solutions proposed.)**
+
+In addition to the very detailed problem-solving approach I took and thoughrouly documented in my 2 jupyter notebooks, the last issue that came to light today as I was closing down my activities is around user stories. For some strange reason, I was not able to edit the content of the user story to make amendements. Used the comments section instead to document what I wanted to write before closing the user story. I will need to investigate this later to understand what happened here.
 
 
 ## **Main Data Analysis Libraries**
@@ -208,7 +253,7 @@ I used the LMS throughout the project to access Python code and overall learning
 
 **Emma Lamont** for her patience and support throughout the course and during the capstone project.
 
-**Vasi** for deputising for Emma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
+**Vasi Barribal** for deputising for Emma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
 
 
 
