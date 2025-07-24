@@ -127,25 +127,45 @@
 ![PBI desktop confirmation](images/pbi-desktop-confirmation.png)
 
 
-In PBI, chose 4 visualisations that correlate to the business goals.
+I also provide a web link, in case my "pro" access is still active (part of the 60 days free trial).
 
-**1. Stacked bar chart: average of purchase_amount (usd) by location**
+[Dashboard web link]().
+
+
+In PBI, chose 4 visualisations that correlate to the business goals: increase sales through marketing campaigns.
+
+Since hypothesis testing highlighted issues with the quality of the data, changed some of the parameters to produce the visualisations.
+
+For all the visualisations, **changed the parameter for purchase_amount_(usd) from 'sum' to ''average'** to produce more insightful insights.
+
+
+![Visualisation summary](images/visualisation-summary.png)
+
+
+**1. Stacked bar chart: average of purchase_amount_(usd) by location**
+
+This first graph shows the average spend by location. By hovering over the graph, you will be able to see the values individually. I was interested to see if there were areas were marketing campaigns had proven to be more succesful than others and as you can see, the average spend ranges from $59.42 in New Hampshire (lowest) to $67.60 in Alaska (highest). A difference of only $8.18 which is not significant considering how expensive marketing campaigns are. So here, I would say that the average spend is the same across all regions.
 
 
 **2. Line and stacked column chart: average of purchase_amount (usd) by season**
 
+Using the line and stacked column chart, I was interested to see if marketing campaigns had had any significant impact on average spend by season (I purposely changed the variable from promo_code_used from hypothesis testing to average_spend_usd). Once again the results show that there are no differences across seasons. It ranges from $58.41 in the summer (lowest) to $61.66 in the fall (highest). A marginal difference of $3.25. As an example, when we know that Black Friday is a big event in the US and companies tend to slash their prices to increase revenue, I was surprised to see no difference across seasons. There are only 3 case scenarios here: either the company did not run any promotional events, or they did run and there was no ROI or the dataset is incorrect. Before jumping to any conclusions, had this been in a real working environment, I would have checked the accuracy of the data first before jumping to any conclusions.
 
 **3. Donut chart: average of purchase_amount (usd) by age group**
 
+The donut chart shows average spend by age group (changed the variable from promo_code_used from hypothesis testing to average_spend_usd).Again, as you can see in the graph, there are no differences across customer segments and average spend.
 
+**4. Clustered bar chart: average of purchase_amount (usd) by gender**
 
-**4. Clustered bar chart: average of purchase_amount (usd) by age group**
-
-
+The clustered bar chart shows average spend by gender. For this one, I chose to change the variable from discount_applied from hypothesis testing to average_spend_usd.Again, there is no difference in average spend across genders (average spend is roughly $60). I had always heard females to be higher spenders compared to males. Again I would challenge the accuracy of the data when you also take into account the method of payment. If you hoover over the graph, you will see a tooltip I created and added to the graph that shows the method of payment by count of transactions. Again, I see some inconsistencies here. For females, the 3 main methods of payment are: credit card, paypal and cash. For males, cash, debit card and paypal. In Kaggle, the summary of the dataset mentions "**online** shopping behaviour". When shopping online, I struggle to understand how a customer can make payments using cash or even using "bank transfer". This additional finding highlights once again that the data might not be correct. 
 
 **5. Text filter based on location**
 
+This last visualisation provides a quick way to view data by filtering on the location. If I type in "Utah" as an example and press "enter" all the graphs automatically update to only show data related to that location. 
 
+**placeholder for image**
+
+![]()
 
 ## **Unfixed Bugs**
 
@@ -155,6 +175,7 @@ Fortunately, there are no unfixed bugs to report on. This time round, I adopted 
 ## **Development roadmap**
 
 Completing the Hackathons and the Capstone project has been a big learning curve for me. As I progressed through the bootcamp, I overcame the imposter syndrome and with it my knowledge and understanding of the process. That being said, there are 2 areas where I plan to develop further. The first one being Power BI. Although I am able to perform basic/simple visualisations, I feel there is more to learn and I have already identified a couple of videos on YouTube to help me with this. The second area is around consolidating my knowledge and understanding of machine learning. For this, I plan to revisit the content in the LMS and practice with datasets from Kaggle so that I can test various techniques and learn what works and what does not work.
+
 
 ## **Main Data Analysis Libraries**
 
@@ -178,9 +199,11 @@ This YouTube tutorial helped me grasp the basics of PBI to complete the capstone
 **Code Institute LMS programme** [LMS](https://learn.codeinstitute.net/ci_program/daai_9).
 I used the LMS throughout the project to access Python code and overall learning content.
 
+
 ### **Media**
 
 * The image used for the project introduction was taken from Kaggle [Project image intro](https://www.kaggle.com/datasets/sahilislam007/shopping-trends-and-customer-behaviour-dataset).
+
 
 ## **Acknowledgements**
 
@@ -190,7 +213,7 @@ I used the LMS throughout the project to access Python code and overall learning
 
 **Emma Lamont** for her patience and support throughout the course and during the capstone project.
 
-**Vasi** for deputising for Emmma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
+**Vasi** for deputising for Emma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
 
 
 
