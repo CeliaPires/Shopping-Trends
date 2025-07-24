@@ -112,12 +112,22 @@
 
 ## **Analysis techniques used**
 
-* placeholder text
+* **Descriptive statistics** to summarise and explore general trends (eg, Mean purchase amount, frequency counts of promo usage, distribution of age and gender).
+
+* **Data visualisation** to identify patterns and communicate insights visually (boxplots, stacked bar charts).
+
+* **Hypothesis testing** to assess statistical significance of observed relationships (eg, Chi-Squared Test, t-Test).
+
+* **Clustering** to group customers with similar behaviours (eg, K-Means Clustering, DBSCAN).
+
+* **Data cleaning and preparation** to ensure data quality and integrity before analysis (eg, removing PII).
+
+* **Feature engineering** to create new variables that add meaning or improve analysis (eg, "age group" from raw age).
 
 
 ## **Ethical considerations**
 
-* placeholder text
+* Already covered in the miscellaneous section under points 6.2 and 6.1.
 
 
 ## **Dashboard Design**
@@ -195,6 +205,7 @@ For this project, I used an observational research methodology since the goal of
 
 
 Pass criteria requirement **6.2 (Discuss the legal and social implications of the data handling and findings).**
+
 **6.1 (Examine ethical issues, data privacy, and governance in the project’s methodology).**
 
 To comply with data privacy regulations such as the General Data Protection Regulation (GDPR), all personally identifiable information (PII) was removed from the dataset (eg, 'customer_id' column). This was key to protect individuals' privacy. The final dataset used for analysis was fully anonymised. 
@@ -253,7 +264,7 @@ I used the LMS throughout the project to access Python code and overall learning
 
 **Emma Lamont** for her patience and support throughout the course and during the capstone project.
 
-**Vasi Barribal** for deputising for Emma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
+**Vasi Barriball** for deputising for Emma and helping me with my queries/issues with the sharing of the PBI desktop dashboard.
 
 
 
