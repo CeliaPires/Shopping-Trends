@@ -136,7 +136,7 @@ In PBI, chose 4 visualisations that correlate to the business goals: increase sa
 
 Since hypothesis testing highlighted issues with the quality of the data, changed some of the parameters to produce the visualisations.
 
-For all the visualisations, **changed the parameter for purchase_amount_(usd) from 'sum' to ''average'** to produce more insightful insights.
+For all the visualisations, **changed the parameter for purchase_amount_(usd) from 'sum' to ''average'** to produce insightful insights.
 
 
 ![Visualisation summary](images/visualisation-summary.png)
@@ -144,32 +144,32 @@ For all the visualisations, **changed the parameter for purchase_amount_(usd) fr
 
 **1. Stacked bar chart: average of purchase_amount_(usd) by location**
 
-This first graph shows the average spend by location. By hovering over the graph, you will be able to see the values individually. I was interested to see if there were areas were marketing campaigns had proven to be more succesful than others and as you can see, the average spend ranges from $59.42 in New Hampshire (lowest) to $67.60 in Alaska (highest). A difference of only $8.18 which is not significant considering how expensive marketing campaigns are. So here, I would say that the average spend is the same across all regions.
+This first graph shows the average spend by location. By hoovering over the graph, you will be able to see the values individually. I was interested to see if there were areas were marketing campaigns had proven to be more impactful than others. As you can see, the average spend ranges from $59.42 in New Hampshire (lowest) to $67.60 in Alaska (highest), a difference of only $8.18 which is not significant considering how expensive marketing campaigns are. So here, I would say that the average spend is the same across all regions.
 
 
 **2. Line and stacked column chart: average of purchase_amount (usd) by season**
 
-Using the line and stacked column chart, I was interested to see if marketing campaigns had had any significant impact on average spend by season (I purposely changed the variable from promo_code_used from hypothesis testing to average_spend_usd). Once again the results show that there are no differences across seasons. It ranges from $58.41 in the summer (lowest) to $61.66 in the fall (highest). A marginal difference of $3.25. As an example, when we know that Black Friday is a big event in the US and companies tend to slash their prices to increase revenue, I was surprised to see no difference across seasons. There are only 3 case scenarios here: either the company did not run any promotional events, or they did run and there was no ROI or the dataset is incorrect. Before jumping to any conclusions, had this been in a real working environment, I would have checked the accuracy of the data first before jumping to any conclusions.
+Using the line and stacked column chart, I was interested to see if marketing campaigns had had any significant impact on average spend by season (I purposely changed the variable from promo_code_used from hypothesis testing to average_spend_usd). Once again the results show that there are no differences across seasons. It ranges from $58.41 in the summer (lowest) to $61.66 in the fall (highest), a marginal difference of $3.25. As an example, when we know that Black Friday is a big event in the US and companies tend to slash their prices to increase revenue, I was surprised to see no difference across seasons. There are only 3 case scenarios here: either the company did not run any promotional events, or they did run and there was no ROI or the dataset is incorrect. Before jumping to any conclusions, had this been in a real working environment, I would have checked the accuracy of the data first before jumping to any conclusions.
 
 **3. Donut chart: average of purchase_amount (usd) by age group**
 
-The donut chart shows average spend by age group (changed the variable from promo_code_used from hypothesis testing to average_spend_usd).Again, as you can see in the graph, there are no differences across customer segments and average spend.
+The donut chart shows average spend by age group (changed the variable from promo_code_used from hypothesis testing to average_spend_usd). Again, you can see in the graph that there are no differences across customer segments and average spend which is unusual.
 
 **4. Clustered bar chart: average of purchase_amount (usd) by gender**
 
-The clustered bar chart shows average spend by gender. For this one, I chose to change the variable from discount_applied from hypothesis testing to average_spend_usd.Again, there is no difference in average spend across genders (average spend is roughly $60). I had always heard females to be higher spenders compared to males. Again I would challenge the accuracy of the data when you also take into account the method of payment. If you hoover over the graph, you will see a tooltip I created and added to the graph that shows the method of payment by count of transactions. Again, I see some inconsistencies here. For females, the 3 main methods of payment are: credit card, paypal and cash. For males, cash, debit card and paypal. In Kaggle, the summary of the dataset mentions "**online** shopping behaviour". When shopping online, I struggle to understand how a customer can make payments using cash or even using "bank transfer". This additional finding highlights once again that the data might not be correct. 
+The clustered bar chart shows average spend by gender. For this one, I chose to change the variable from discount_applied from hypothesis testing to average_spend_usd. Again, there is no difference in average spend across genders (average spend is roughly $60). I had always heard females to be higher spenders compared to males. Again, I would challenge the accuracy of the data when you also take into account the method of payment. If you hoover over the graph, you will see a tooltip I created and added to the graph that shows the method of payment by count of transactions. Again, I see some inconsistencies here. For females, the 3 main methods of payment are: credit card, paypal and cash. For males, cash, debit card and paypal. In Kaggle, the summary of the dataset mentions "**online** shopping behaviour". When shopping online, I struggle to understand how a customer can make payments using cash or even "bank transfer". This additional finding highlights once again that the data might not be correct. 
 
 **5. Text filter based on location**
 
 This last visualisation provides a quick way to view data by filtering on the location. If I type in "Utah" as an example and press "enter" all the graphs automatically update to only show data related to that location. 
 
-**placeholder for image**
 
-![]()
+![Filter by location](images/filter-by-location.png)
+
 
 ## **Unfixed Bugs**
 
-Fortunately, there are no unfixed bugs to report on. This time round, I adopted a different strategy that incorporated lessons learnt from solo and group hackathons along with planning ahead for the capstone. My knowledge and understanding of the process has greatly improved which is rewarding to see. This time round I felt more in control. My checklist definitely helped and also reaching out to my fellow students as and when I was not sure of something was really reassuring. At the start of the project when I was trying to clone my repo in VS Code, I got confused with some of the steps. I reached-out to Natalie Waugh who very kindly provided guidance on what I needed to do. Same thing with Power BI where I felt that my knowledge was not where it needed to be. I reached-out to a couple of people in my cohort who were able to recommend YouTube content to address some of my gaps. Finally, during the capstone when I add to complete clustering for my dataset, reached-out to Spencer to validate my understanding and the interpretation of the result. In the process, realised how important the data cleanse/tranformation step is, more specifically when it comes to data re-engineering. I have definitely learned from it and will be more vigilent as and when I perform a similar type of work in the future.
+Fortunately, there are no unfixed bugs to report on. This time round, I adopted a different strategy that incorporated lessons learnt from solo and group hackathons along with planning ahead for the capstone. My knowledge and understanding of the process has greatly improved which is rewarding to see. This time round I felt more in control. My checklist definitely helped and also reaching out to my fellow students as and when I was not sure of something was really reassuring. At the start of the project when I was trying to clone my repo in VS Code, I got confused with some of the steps. I reached-out to Natalie Waugh who very kindly provided guidance on what I needed to do. Same thing with Power BI where I felt that my knowledge was not where it needed to be. I reached-out to a couple of people in my cohort who were able to recommend YouTube content to address some of my gaps. Finally, during the capstone when I add to complete clustering for my dataset, reached-out to Spencer to validate my understanding and the interpretation of the results. In the process, realised how important the data cleanse/tranformation step is, more specifically when it comes to data re-engineering. I have definitely learned from it and will be more vigilent as and when I perform a similar type of work in the future.
 
 
 ## **Development roadmap**
