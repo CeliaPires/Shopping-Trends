@@ -107,7 +107,15 @@
 
 ## **The rationale to map the business requirements to the data visualisations**
 
-* placeholder text
+* The project's aim is to analyse online shopping behaviour using a range of customer attributes and purchase activities. The dataset included demographic details (age, gender), transaction characteristics (item, category, purchase amount, season) and behavioural indicators (discount and promo code usage, subscription status, review ratings and purchase frequency).
+
+* The core business objective is to understand which customer segments are most responsive to discounts and promotions and whether these offers influence spending behaviour. To achieve this, several hypotheses were tested to uncover patterns in promo code and discount usage across different demographic and transactional variables.
+
+* To support these goals, data visualisations were carefully chosen to help stakeholders interpret key findings.
+
+* Although none of the hypotheses were statistically supported, the visualisations provided valuable context and helped visualise unexpected patterns such as gender-based discount trends that contradict common assumptions. These insights can inform future campaigns by encouraging the business to challenge biases and test promotional strategies more systematically.
+
+* Ultimately, the visual approach ensured findings were accessible to non-technical stakeholders and aligned closely with the project's aim to deliver actionable insights into customer behaviour through data-driven storytelling.
 
 
 ## **Analysis techniques used**
